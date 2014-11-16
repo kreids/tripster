@@ -23,10 +23,11 @@ public class DumpYourTable_ToTAXML {
 	Statement stat;
 	PrintWriter xmlOutput;
 	
-	static final String hostName = "{your-database-server-hostname}";
-	static final String user = "{your-user-id}";
-	static final String password = "{your-user-login-password}";
-	static final String database = "{your-oracle-database-name}"; 
+	static final String hostName = 
+			"tripsterdevdb.c487ba8vtwqs.us-east-1.rds.amazonaws.com:1521";
+	static final String user = "zhangb_tripster";
+	static final String password = "iheart550";
+	static final String database = "TRIP"; 
 	
 	
 	public DumpYourTable_ToTAXML() throws ClassNotFoundException, SQLException, IOException {
@@ -36,7 +37,8 @@ public class DumpYourTable_ToTAXML {
 		
 		stat = conn.createStatement();
 		
-		xmlOutput = new PrintWriter(new BufferedWriter(new FileWriter("export.xml")));
+		xmlOutput = 
+		  new PrintWriter(new BufferedWriter(new FileWriter("G18_export.xml")));
 		
 		xmlOutput.println("<database>");
 	}
@@ -65,8 +67,9 @@ public class DumpYourTable_ToTAXML {
 	 * @throws SQLException 
 	 */
 	public List<String> getTables() throws SQLException {
-		ResultSet rs = stat.executeQuery("SELECT TABLE_NAME FROM ALL_TABLES WHERE OWNER='" + 
-				user.toUpperCase() + "'");
+		ResultSet rs = 
+			stat.executeQuery("SELECT TABLE_NAME FROM ALL_TABLES WHERE OWNER='"
+					+ user.toUpperCase() + "'");
 		
 		List<String> ret = new ArrayList<String>();
 		while (rs.next()) {
@@ -109,7 +112,8 @@ public class DumpYourTable_ToTAXML {
 	 * @throws ClassNotFoundException 
 	 * @throws IOException 
 	 */
-	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
+	public static void main(String[] args) 
+					throws ClassNotFoundException, SQLException, IOException {
 		DumpYourTable_ToTAXML dump = new DumpYourTable_ToTAXML();
 		
 		List<String> tablesInSchema = dump.getTables();
