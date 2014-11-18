@@ -1,6 +1,7 @@
 <tripster>{
 for $user in doc("MyImportExport/G18_export.xml") /database/USERS/tuple
 let $wenton := doc("MyImportExport/G18_export.xml")/database/WENTON/tuple[USERID = $user/USERID]
+let $invited := doc("MyImportExport/G18_export.xml")/database/INVITE/tuple[INVITER = $user/USERID]
 return
    <user>
    <name>{data($user/NAME)}</name>
@@ -25,6 +26,26 @@ return
          <name>TODO</name>
          <feature>TODO?</feature>
          <privacyFlag>TODO</privacyFlag>
+         {
+           for $invite in $invited[TID = $trip/TID]
+           return 
+             <invite>
+               <tripid>{data($trip/TID)}</tripid>
+               <friendid>{data($invite/INVITEE)}</friendid>
+               <status>PENDING</status>
+             </invite>
+         }
+         {
+           for $album in doc("MyImportExport/G18_export.xml")/database/ALBUMS/tuple[TID = $trip/TID]
+           return
+             <album>
+               <id>{data($album/AID)}</id>
+               <name>{data($album/NAME)}</name>
+               <privacyFlag>TODO</privacyFlag>
+               <content>TODO: restructure database</content>
+             </album>
+             
+         }
          <location>{data($trip/LOCATION)}</location>
        </trip>
    }

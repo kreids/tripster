@@ -1,0 +1,104 @@
+<database>
+    <TRIP>
+        <tuple>
+            <TID>0</TID>
+            <LOCATION>Italy</LOCATION>
+        </tuple>
+        <tuple>
+            <TID>1</TID>
+            <LOCATION>Thailand</LOCATION>
+        </tuple>
+    </TRIP>
+    <USERS>
+        <tuple>
+            <USERID>0</USERID>
+            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
+            <AFFILIATION>Penn</AFFILIATION>
+            <NAME>Lily Wang</NAME>
+        </tuple>
+        <tuple>
+            <USERID>1</USERID>
+            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
+            <AFFILIATION>Penn</AFFILIATION>
+            <NAME>Dan Reife</NAME>
+        </tuple>
+        <tuple>
+            <USERID>2</USERID>
+            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
+            <AFFILIATION>Penn</AFFILIATION>
+            <NAME>Dan Zhang</NAME>
+        </tuple>
+        <tuple>
+            <USERID>3</USERID>
+            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
+            <AFFILIATION>Penn</AFFILIATION>
+            <NAME>Steve Kreider</NAME>
+        </tuple>
+</USERS>
+<FRIEND>
+    <tuple>
+        <FRIEND1>0</FRIEND1>
+        <FRIEND2>1</FRIEND2>
+    </tuple>
+    <tuple>
+        <FRIEND1>1</FRIEND1>
+        <FRIEND2>2</FRIEND2>
+    </tuple>
+    <tuple>
+        <FRIEND1>2</FRIEND1>
+        <FRIEND2>3</FRIEND2>
+    </tuple>
+    <tuple>
+        <FRIEND1>1</FRIEND1>
+        <FRIEND2>3</FRIEND2>
+    </tuple>
+</FRIEND>
+<WENTON>
+    <tuple>
+        <TID>0</TID>
+        <USERID>0</USERID>
+    </tuple>
+    <tuple>
+        <TID>0</TID>
+        <USERID>1</USERID>
+    </tuple>
+    <tuple>
+        <TID>1</TID>
+        <USERID>2</USERID>
+    </tuple>
+    <tuple>
+        <TID>1</TID>
+        <USERID>3</USERID>
+    </tuple>
+</WENTON>
+<INVITE>
+    <tuple>
+        <INVITER>0</INVITER>
+        <INVITEE>2</INVITEE>
+        <TID>0</TID>
+    </tuple>
+    <tuple>
+        <INVITER>1</INVITER>
+        <INVITEE>3</INVITEE>
+        <TID>0</TID>
+    </tuple>
+</INVITE>
+<SHAREPHOTOS>
+</SHAREPHOTOS>
+<SHAREVIDEOS>
+</SHAREVIDEOS>
+<RATETRIP>
+</RATETRIP>
+<COMMENTTRIP>
+</COMMENTTRIP>
+<COMMENTPHOTOS>
+</COMMENTPHOTOS>
+<ITEMS>
+</ITEMS>
+<VIDEOS>
+</VIDEOS>
+<PHOTOS>
+</PHOTOS>
+<ALBUMS>
+</ALBUMS>
+</database>
