@@ -1,6 +1,6 @@
 <tripster>{
 for $user in doc("MyImportExport/G18_export.xml") /database/USERS/tuple
-let $wenton := doc("MyImportExport/G18_export.xml")/database/WENTON/tuple
+let $wenton := doc("MyImportExport/G18_export.xml")/database/WENTON/tuple[USERID = $user/USERID]
 return
    <user>
    <name>{data($user/NAME)}</name>
@@ -16,11 +16,17 @@ return
         then <friend>{ data($users[USERID = $friends/FRIEND2]/NAME)}</friend>
         else <friend> {data($users[USERID = $friends/FRIEND1]/NAME)}</friend>  
    }
-   <trip>
-     <id>
-     {data($wenton[USERID = $user/USERID]/TID)}
-     </id>
-   </trip>
-   
+   {
+     for $trip in doc("MyImportExport/G18_export.xml")/database/TRIP/tuple
+     where $wenton/TID = $trip/TID
+     return
+       <trip>
+         <id>{data($trip/TID)}</id>
+         <name>TODO</name>
+         <feature>TODO?</feature>
+         <privacyFlag>TODO</privacyFlag>
+         <location>{data($trip/LOCATION)}</location>
+       </trip>
+   }
    </user>
 }</tripster>
