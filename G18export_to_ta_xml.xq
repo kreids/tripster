@@ -1,7 +1,6 @@
 <tripster>{
 for $user in doc("MyImportExport/G18_export.xml") /database/USERS/tuple
 let $wenton := doc("MyImportExport/G18_export.xml")/database/WENTON/tuple[USERID = $user/USERID]
-let $invited := doc("MyImportExport/G18_export.xml")/database/INVITE/tuple[INVITER = $user/USERID]
 return
    <user>
    <name>{data($user/NAME)}</name>
@@ -23,18 +22,10 @@ return
      return
        <trip>
          <id>{data($trip/TID)}</id>
-         <name>TODO</name>
+         <name>{data($trip/NAME)}</name>
          <feature>TODO?</feature>
          <privacyFlag>TODO</privacyFlag>
-         {
-           for $invite in $invited[TID = $trip/TID]
-           return 
-             <invite>
-               <tripid>{data($trip/TID)}</tripid>
-               <friendid>{data($invite/INVITEE)}</friendid>
-               <status>PENDING</status>
-             </invite>
-         }
+        
          {
            for $album in doc("MyImportExport/G18_export.xml")/database/ALBUMS/tuple[TID = $trip/TID]
            return
@@ -48,6 +39,25 @@ return
          }
          <location>{data($trip/LOCATION)}</location>
        </trip>
+   }
+   {
+      for $invited in doc("MyImportExport/G18_export.xml")/database/INVITE/tuple
+      where $invited/INVITER = $user/USERID
+      return 
+        <invite>
+           <tripid>{data($invited/TID)}</tripid>
+           <friendid>{data($invited/INVITEE)}</friendid>
+           <status>PENDING</status>
+        </invite>
+   }
+   {
+     for $rating in doc("MyImportExport/G18_export.xml")/database/RATETRIP/tuple
+     return
+       <rateTrip>
+         <tripid>{data($rating/TID)}</tripid>
+         <score>{data($rating/RATING)}</score>
+         <comment>TODO</comment>
+       </rateTrip>
    }
    </user>
 }</tripster>
