@@ -1,8 +1,4 @@
 <tripster>{
-(:
-for $user in doc("MyImportExport/G18_export.xml") /database/USERS/tuple
-let $wenton := doc("MyImportExport/G18_export.xml")/database/WENTON/tuple[USERID = $user/USERID]
-:)
 let $fpath := "MyImportExport/G18_export.xml"
 for $user in doc($fpath) /database/USERS/tuple
 let $wenton := doc($fpath)/database/WENTON/tuple[USERID = $user/USERID]
@@ -40,7 +36,30 @@ return
                <id>{data($album/AID)}</id>
                <name>{data($album/NAME)}</name>
                <privacyFlag>TODO</privacyFlag>
-               <content>TODO: restructure database</content>
+               {
+                  (:photo content:)
+                for $photo in doc($fpath)/database/PHOTOS/tuple[AID = $album/AID]
+                where $photo/TID = $trip/TID
+                return 
+                 <content>
+                   <id>{data($photo/PID)}</id>
+                   <source>todo?</source>
+                   <type>photo</type>
+                   <url>{data($photo/URL)}</url>
+                 </content>
+               }
+               {
+                  (:video content:)
+                for $video in doc($fpath)/database/VIDEO/tuple[AID = $album/AID]
+                where $video/TID = $trip/TID
+                return 
+                 <content>
+                   <id>{data($video/PID)}</id>
+                   <source>todo?</source>
+                   <type>video</type>
+                   <url>{data($video/URL)}</url>
+                 </content>
+               }
              </album>
              
          }
@@ -48,7 +67,7 @@ return
        </trip>
    }
    {
-      for $invited in doc("MyImportExport/G18_export.xml")/database/INVITE/tuple
+      for $invited in doc($fpath)/database/INVITE/tuple
       where $invited/INVITER = $user/USERID
       return 
         <invite>
@@ -58,7 +77,7 @@ return
         </invite>
    }
    {
-     for $rating in doc("MyImportExport/G18_export.xml")/database/RATETRIP/tuple
+     for $rating in doc($fpath)/database/RATETRIP/tuple
      return
        <rateTrip>
          <tripid>{data($rating/TID)}</tripid>
