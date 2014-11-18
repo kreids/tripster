@@ -1,23 +1,30 @@
 <tripster>{
+(:
 for $user in doc("MyImportExport/G18_export.xml") /database/USERS/tuple
 let $wenton := doc("MyImportExport/G18_export.xml")/database/WENTON/tuple[USERID = $user/USERID]
+:)
+let $fpath := "MyImportExport/G18_export.xml"
+for $user in doc($fpath) /database/USERS/tuple
+let $wenton := doc($fpath)/database/WENTON/tuple[USERID = $user/USERID]
+let $invited := doc($fpath)/database/INVITE/tuple[INVITER = $user/USERID]
+
 return
    <user>
    <name>{data($user/NAME)}</name>
-   <login>TODO</login>
-   <email>TODO</email>
+   <login>{data($user/EMAIL)}</login>
+   <email>{data($user/EMAIL)}</email>
    <affiliation>{data($user/AFFILIATION)}</affiliation>
    <interests>NULL</interests> 
    {
-        for $friends in doc("MyImportExport/G18_export.xml")/database/FRIEND/tuple
-        let $users := doc("MyImportExport/G18_export.xml")/database/USERS/tuple[USERID != $user/USERID]
+        for $friends in doc($fpath)/database/FRIEND/tuple
+        let $users := doc($fpath)/database/USERS/tuple[USERID != $user/USERID]
         where ($user/USERID = $friends/FRIEND1 or $user/USERID = $friends/FRIEND2)
         return if( $user/USERID = $friends/FRIEND1)
         then <friend>{ data($users[USERID = $friends/FRIEND2]/NAME)}</friend>
         else <friend> {data($users[USERID = $friends/FRIEND1]/NAME)}</friend>  
    }
    {
-     for $trip in doc("MyImportExport/G18_export.xml")/database/TRIP/tuple
+     for $trip in doc($fpath)/database/TRIP/tuple
      where $wenton/TID = $trip/TID
      return
        <trip>
@@ -27,7 +34,7 @@ return
          <privacyFlag>TODO</privacyFlag>
         
          {
-           for $album in doc("MyImportExport/G18_export.xml")/database/ALBUMS/tuple[TID = $trip/TID]
+           for $album in doc($fpath)/database/ALBUMS/tuple[TID = $trip/TID]
            return
              <album>
                <id>{data($album/AID)}</id>
