@@ -38,28 +38,17 @@ return
                <privacyFlag>{data($album/PRIVACY_FLAG)}</privacyFlag>
                {
                   (:photo content:)
-                for $photo in doc($fpath)/database/PHOTOS/tuple[AID = $album/AID]
-                where $photo/TID = $trip/TID
+                for $cont in doc($fpath)/database/CONTENT/tuple[AID = $album/AID]
+                where $cont/TID = $trip/TID
                 return 
                  <content>
-                   <id>{data($photo/PID)}</id>
+                   <id>{data($cont/CID)}</id>
                    <source>todo?</source>
-                   <type>photo</type>
-                   <url>{data($photo/URL)}</url>
+                   <type>{data($cont/TYPE)}</type>
+                   <url>{data($cont/URL)}</url>
                  </content>
                }
-               {
-                  (:video content:)
-                for $video in doc($fpath)/database/VIDEO/tuple[AID = $album/AID]
-                where $video/TID = $trip/TID
-                return 
-                 <content>
-                   <id>{data($video/PID)}</id>
-                   <source>todo?</source>
-                   <type>video</type>
-                   <url>{data($video/URL)}</url>
-                 </content>
-               }
+               
              </album>
              
          }
