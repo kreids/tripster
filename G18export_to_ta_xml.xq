@@ -1,4 +1,6 @@
-<tripster>{
+<tripster>
+  <operator>CIS550</operator>
+  <web_url>www.tripster.com</web_url>{
 let $fpath := "MyImportExport/G18_export.xml"
 for $user in doc($fpath) /database/USERS/tuple
 let $wenton := doc($fpath)/database/WENTON/tuple[USERID = $user/USERID]
@@ -10,7 +12,7 @@ return
    <login>{data($user/EMAIL)}</login>
    <email>{data($user/EMAIL)}</email>
    <affiliation>{data($user/AFFILIATION)}</affiliation>
-   <interests>NULL</interests> 
+   <interests>none</interests> 
    {
         for $friends in doc($fpath)/database/FRIEND/tuple
         let $users := doc($fpath)/database/USERS/tuple[USERID != $user/USERID]
@@ -26,7 +28,7 @@ return
        <trip>
          <id>{data($trip/TID)}</id>
          <name>{data($trip/NAME)}</name>
-         <feature>TODO?</feature>
+         <feature>none</feature>
          <privacyFlag>{data($trip/PRIVACY_FLAG)}</privacyFlag>
         
          {
@@ -43,7 +45,7 @@ return
                 return 
                  <content>
                    <id>{data($cont/CID)}</id>
-                   <source>todo?</source>
+                   <source>18</source>
                    <type>{data($cont/TYPE)}</type>
                    <url>{data($cont/URL)}</url>
                  </content>
@@ -52,7 +54,10 @@ return
              </album>
              
          }
-         <location>{data($trip/LOCATION)}</location>
+         <location>
+           <name>{data($trip/LOCATION)}</name>
+           <type>place</type>         
+         </location>
        </trip>
    }
    {
@@ -71,7 +76,7 @@ return
        <rateTrip>
          <tripid>{data($rating/TID)}</tripid>
          <score>{data($rating/RATING)}</score>
-         <comment>TODO</comment>
+         <comment>{data($rating/TEXT)}</comment>
        </rateTrip>
    }
    </user>
