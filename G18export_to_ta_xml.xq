@@ -27,7 +27,7 @@ return
          <id>{data($trip/TID)}</id>
          <name>{data($trip/NAME)}</name>
          <feature>TODO?</feature>
-         <privacyFlag>TODO</privacyFlag>
+         <privacyFlag>{data($trip/PRIVACY_FLAG)}</privacyFlag>
         
          {
            for $album in doc($fpath)/database/ALBUMS/tuple[TID = $trip/TID]
@@ -35,7 +35,7 @@ return
              <album>
                <id>{data($album/AID)}</id>
                <name>{data($album/NAME)}</name>
-               <privacyFlag>TODO</privacyFlag>
+               <privacyFlag>{data($album/PRIVACY_FLAG)}</privacyFlag>
                {
                   (:photo content:)
                 for $photo in doc($fpath)/database/PHOTOS/tuple[AID = $album/AID]
