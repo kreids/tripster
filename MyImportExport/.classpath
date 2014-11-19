@@ -2,9 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle JDBC"/>
-
 	<classpathentry kind="lib" path="/Users/lilw/Dropbox/school/Senior/Fall/CIS450/Final/project/MyImportExport/classes12.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-
+	<classpathentry kind="lib" path="/Users/DMR/Documents/Penn/Fall2014/CIS450/Project/project/MyImportExport/classes12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

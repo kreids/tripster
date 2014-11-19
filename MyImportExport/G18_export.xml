@@ -26,6 +26,7 @@
 <tuple><TID>0         </TID><USERID>1         </USERID></tuple>
 <tuple><TID>1         </TID><USERID>2         </USERID></tuple>
 <tuple><TID>1         </TID><USERID>3         </USERID></tuple>
+<tuple><TID>4         </TID><USERID>4         </USERID></tuple>
 </WENTON>
 <INVITE>
 <tuple><INVITER>0         </INVITER><INVITEE>2         </INVITEE><TID>0         </TID></tuple>
@@ -65,10 +66,15 @@
 <tuple><TID>4         </TID><AID>0         </AID><CID>20        </CID><URL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7gK7YH9ZDiK_iu58vvQvN_oIqRh6-joQWI9t9FrMjKQI-KUI1                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
 <tuple><TID>1         </TID><AID>4         </AID><CID>24        </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSSNOXd_IgI0j0OJBgy8WCwxNeCTvu1NhQU61Dfs0hb01BGO5jt                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
 </CONTENT>
+<RATETRIP>
+<tuple><TID>2         </TID><USERID>4         </USERID><RATING>10</RATING><TEXT>was awesome                                                                                                                                                     </TEXT></tuple>
+<tuple><TID>1         </TID><USERID>2         </USERID><RATING>5</RATING><TEXT>none                                                                                                                                                            </TEXT></tuple>
+<tuple><TID>0         </TID><USERID>1         </USERID><RATING>6</RATING><TEXT>had fun                                                                                                                                                         </TEXT></tuple>
+<tuple><TID>3         </TID><USERID>2         </USERID><RATING>7</RATING><TEXT>so great!                                                                                                                                                       </TEXT></tuple>
+<tuple><TID>4         </TID><USERID>4         </USERID><RATING>3</RATING><TEXT>meh                                                                                                                                                             </TEXT></tuple>
+</RATETRIP>
 <SHARECONTENT>
 </SHARECONTENT>
-<RATETRIP>
-</RATETRIP>
 <COMMENTTRIP>
 </COMMENTTRIP>
 <COMMENTCONTENT>
