@@ -42,7 +42,7 @@ return
                <name>{data($album/NAME)}</name>
                <privacyFlag>{data($album/PRIVACY_FLAG)}</privacyFlag>
                {
-                  (:photo content:)
+   
                 for $cont in doc($fpath)/database/CONTENT/tuple[AID = $album/AID]
                 where $cont/TID = $trip/TID
                 return 
