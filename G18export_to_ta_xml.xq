@@ -8,11 +8,11 @@ let $invited := doc($fpath)/database/INVITE/tuple[INVITER = $user/USERID]
 
 return
    <user>
-   <name>{data($user/NAME)}</name>
    <login>{data($user/EMAIL)}</login>
    <email>{data($user/EMAIL)}</email>
+   <name>{data($user/NAME)}</name>
    <affiliation>{data($user/AFFILIATION)}</affiliation>
-   <interests>none</interests> 
+   <interests>none</interests>
    {
         for $friends in doc($fpath)/database/FRIEND/tuple
         let $users := doc($fpath)/database/USERS/tuple[USERID != $user/USERID]
@@ -30,7 +30,6 @@ return
          <name>{data($trip/NAME)}</name>
          <feature>none</feature>
          <privacyFlag>{data($trip/PRIVACY_FLAG)}</privacyFlag>
-        
          {
            for $album in doc($fpath)/database/ALBUMS/tuple[TID = $trip/TID]
            return
@@ -50,25 +49,13 @@ return
                    <url>{data($cont/URL)}</url>
                  </content>
                }
-               
-             </album>
-             
+           </album>  
          }
          <location>
            <name>{data($trip/LOCATION)}</name>
            <type>place</type>         
          </location>
-       </trip>
-   }
-   {
-      for $invited in doc($fpath)/database/INVITE/tuple
-      where $invited/INVITER = $user/USERID
-      return 
-        <invite>
-           <tripid>{data($invited/TID)}</tripid>
-           <friendid>{data($invited/INVITEE)}</friendid>
-           <status>PENDING</status>
-        </invite>
+     </trip>
    }
    {
      for $rating in doc($fpath)/database/RATETRIP/tuple
@@ -79,5 +66,15 @@ return
          <comment>{data($rating/TEXT)}</comment>
        </rateTrip>
    }
-   </user>
+   {
+      for $invited in doc($fpath)/database/INVITE/tuple
+      where $invited/INVITER = $user/USERID
+      return 
+        <invite>
+           <tripid>{data($invited/TID)}</tripid>
+           <friendid>{data($invited/INVITEE)}</friendid>
+           <status>pending</status>
+        </invite>
+   }
+ </user>
 }</tripster>

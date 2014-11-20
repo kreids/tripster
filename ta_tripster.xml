@@ -29,11 +29,6 @@
         <name>str1234</name>
         <type>str1234</type>
       </location>
-      <invite>
-        <tripid>1234</tripid>
-        <friendid>str1234</friendid>
-        <status>pending</status>
-      </invite>
     </trip>
     <rateTrip>
       <tripid>1234</tripid>
