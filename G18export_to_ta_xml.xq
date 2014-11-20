@@ -71,7 +71,7 @@ return
         </invite>
    }
    {
-     for $rating in doc($fpath)/database/RATETRIP/tuple
+     for $rating in doc($fpath)/database/RATETRIP/tuple[USERID = $user/USERID]
      return
        <rateTrip>
          <tripid>{data($rating/TID)}</tripid>
