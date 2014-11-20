@@ -1,104 +1,84 @@
 <database>
-    <TRIP>
-        <tuple>
-            <TID>0</TID>
-            <LOCATION>Italy</LOCATION>
-        </tuple>
-        <tuple>
-            <TID>1</TID>
-            <LOCATION>Thailand</LOCATION>
-        </tuple>
-    </TRIP>
-    <USERS>
-        <tuple>
-            <USERID>0</USERID>
-            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
-            <AFFILIATION>Penn</AFFILIATION>
-            <NAME>Lily Wang</NAME>
-        </tuple>
-        <tuple>
-            <USERID>1</USERID>
-            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
-            <AFFILIATION>Penn</AFFILIATION>
-            <NAME>Dan Reife</NAME>
-        </tuple>
-        <tuple>
-            <USERID>2</USERID>
-            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
-            <AFFILIATION>Penn</AFFILIATION>
-            <NAME>Dan Zhang</NAME>
-        </tuple>
-        <tuple>
-            <USERID>3</USERID>
-            <ENCRYPTEDPASS>null</ENCRYPTEDPASS>
-            <AFFILIATION>Penn</AFFILIATION>
-            <NAME>Steve Kreider</NAME>
-        </tuple>
+<TRIP>
+<tuple><TID>2         </TID><LOCATION>California                              </LOCATION><NAME>California Fun                                                             </NAME><PRIVACY_FLAG>private                                                                                             </PRIVACY_FLAG><USERID>4         </USERID></tuple>
+<tuple><TID>3         </TID><LOCATION>France                                  </LOCATION><NAME>France Fun                                                                 </NAME><PRIVACY_FLAG>public                                                                                              </PRIVACY_FLAG><USERID>2         </USERID></tuple>
+<tuple><TID>4         </TID><LOCATION>Cancun                                  </LOCATION><NAME>Cancun fun                                                                 </NAME><PRIVACY_FLAG>public                                                                                              </PRIVACY_FLAG><USERID>4         </USERID></tuple>
+<tuple><TID>0         </TID><LOCATION>Italy                                   </LOCATION><NAME>Italy Fun                                                                  </NAME><PRIVACY_FLAG>private                                                                                             </PRIVACY_FLAG><USERID>0         </USERID></tuple>
+<tuple><TID>1         </TID><LOCATION>Thailand                                </LOCATION><NAME>Thailand Fun                                                               </NAME><PRIVACY_FLAG>private                                                                                             </PRIVACY_FLAG><USERID>3         </USERID></tuple>
+</TRIP>
+<USERS>
+<tuple><USERID>4         </USERID><ENCRYPTEDPASS>null</ENCRYPTEDPASS><AFFILIATION>Penn                </AFFILIATION><NAME>Kelsey DS                                         </NAME><EMAIL>kelseydds@gmail.com                               </EMAIL></tuple>
+<tuple><USERID>0         </USERID><ENCRYPTEDPASS>null</ENCRYPTEDPASS><AFFILIATION>Penn                </AFFILIATION><NAME>Lily Wang                                         </NAME><EMAIL>lilw@seas.upenn.edu                               </EMAIL></tuple>
+<tuple><USERID>1         </USERID><ENCRYPTEDPASS>null</ENCRYPTEDPASS><AFFILIATION>Penn                </AFFILIATION><NAME>Dan Reife                                         </NAME><EMAIL>dreife@seas.upenn.edu                             </EMAIL></tuple>
+<tuple><USERID>2         </USERID><ENCRYPTEDPASS>null</ENCRYPTEDPASS><AFFILIATION>Penn                </AFFILIATION><NAME>Dan Zhang                                         </NAME><EMAIL>boyangzhang@gmail.com                             </EMAIL></tuple>
+<tuple><USERID>3         </USERID><ENCRYPTEDPASS>null</ENCRYPTEDPASS><AFFILIATION>Penn                </AFFILIATION><NAME>Steve Kreider                                     </NAME><EMAIL>skreider@seas.upenn.edu                           </EMAIL></tuple>
 </USERS>
 <FRIEND>
-    <tuple>
-        <FRIEND1>0</FRIEND1>
-        <FRIEND2>1</FRIEND2>
-    </tuple>
-    <tuple>
-        <FRIEND1>1</FRIEND1>
-        <FRIEND2>2</FRIEND2>
-    </tuple>
-    <tuple>
-        <FRIEND1>2</FRIEND1>
-        <FRIEND2>3</FRIEND2>
-    </tuple>
-    <tuple>
-        <FRIEND1>1</FRIEND1>
-        <FRIEND2>3</FRIEND2>
-    </tuple>
+<tuple><FRIEND1>0         </FRIEND1><FRIEND2>1         </FRIEND2></tuple>
+<tuple><FRIEND1>1         </FRIEND1><FRIEND2>2         </FRIEND2></tuple>
+<tuple><FRIEND1>2         </FRIEND1><FRIEND2>3         </FRIEND2></tuple>
+<tuple><FRIEND1>1         </FRIEND1><FRIEND2>3         </FRIEND2></tuple>
 </FRIEND>
 <WENTON>
-    <tuple>
-        <TID>0</TID>
-        <USERID>0</USERID>
-    </tuple>
-    <tuple>
-        <TID>0</TID>
-        <USERID>1</USERID>
-    </tuple>
-    <tuple>
-        <TID>1</TID>
-        <USERID>2</USERID>
-    </tuple>
-    <tuple>
-        <TID>1</TID>
-        <USERID>3</USERID>
-    </tuple>
+<tuple><TID>2         </TID><USERID>4         </USERID></tuple>
+<tuple><TID>3         </TID><USERID>2         </USERID></tuple>
+<tuple><TID>0         </TID><USERID>0         </USERID></tuple>
+<tuple><TID>0         </TID><USERID>1         </USERID></tuple>
+<tuple><TID>1         </TID><USERID>2         </USERID></tuple>
+<tuple><TID>1         </TID><USERID>3         </USERID></tuple>
+<tuple><TID>4         </TID><USERID>4         </USERID></tuple>
 </WENTON>
 <INVITE>
-    <tuple>
-        <INVITER>0</INVITER>
-        <INVITEE>2</INVITEE>
-        <TID>0</TID>
-    </tuple>
-    <tuple>
-        <INVITER>1</INVITER>
-        <INVITEE>3</INVITEE>
-        <TID>0</TID>
-    </tuple>
+<tuple><INVITER>0         </INVITER><INVITEE>2         </INVITEE><TID>0         </TID></tuple>
+<tuple><INVITER>1         </INVITER><INVITEE>3         </INVITEE><TID>0         </TID></tuple>
 </INVITE>
-<SHAREPHOTOS>
-</SHAREPHOTOS>
-<SHAREVIDEOS>
-</SHAREVIDEOS>
+<ALBUMS>
+<tuple><TID>4         </TID><AID>0         </AID><NAME>Spring Break                                      </NAME><PRIVACY_FLAG>private                                                                                             </PRIVACY_FLAG></tuple>
+<tuple><TID>2         </TID><AID>1         </AID><NAME>Family Vacation                                   </NAME><PRIVACY_FLAG>public                                                                                              </PRIVACY_FLAG></tuple>
+<tuple><TID>3         </TID><AID>2         </AID><NAME>Winter Break                                      </NAME><PRIVACY_FLAG>public                                                                                              </PRIVACY_FLAG></tuple>
+<tuple><TID>0         </TID><AID>3         </AID><NAME>Adventures                                        </NAME><PRIVACY_FLAG>private                                                                                             </PRIVACY_FLAG></tuple>
+<tuple><TID>1         </TID><AID>4         </AID><NAME>Fun                                               </NAME><PRIVACY_FLAG>private                                                                                             </PRIVACY_FLAG></tuple>
+</ALBUMS>
+<CONTENT>
+<tuple><TID>4         </TID><AID>0         </AID><CID>0         </CID><URL>http://www.letssmiletoday.com/uploads/images/17301-kittens_in_a_shoe_22.05.2013.jpg                                                                                                                     </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>2         </TID><AID>1         </AID><CID>1         </CID><URL>http://sykur.is/wp-content/uploads/2014/10/Pretty-Kittens-in-yard-kittens-13937766-1920-1200.jpg                                                                                                        </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>3         </TID><AID>2         </AID><CID>2         </CID><URL>http://miriadna.com/desctopwalls/images/max/Kittens-kiss.jpg                                                                                                                                            </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>0         </TID><AID>3         </AID><CID>3         </CID><URL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQopP5uryPCgOevZVLyk_Htlp9z2SwCteTrIA_phhJyM0SHWRHO                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>1         </TID><AID>4         </AID><CID>4         </CID><URL>http://critterbabies.com/wp-content/gallery/kittens/803864926_1375572583.jpg                                                                                                                            </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>4         </TID><AID>0         </AID><CID>5         </CID><URL>http://critterbabies.com/wp-content/gallery/kittens/cats-animals-kittens-background-us.jpg                                                                                                              </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>2         </TID><AID>1         </AID><CID>6         </CID><URL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46Yz14YTYCaWem-75MIrMf2EiEJn06Dsa2S75xPBiYxBj51UM                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>3         </TID><AID>2         </AID><CID>7         </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQKtxxlJ2hJOHCsU-TEAxwy8LBLmAKNfUbobCuKQlLD65cGyQE2                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>0         </TID><AID>3         </AID><CID>8         </CID><URL>http://static.comicvine.com/uploads/original/11113/111134695/3891161-6868490335-cats-.jpg                                                                                                               </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>1         </TID><AID>4         </AID><CID>9         </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBVcFpYeCuIwxmEv6EKyhorwNbaJiT_j8CsnYusNxJQZ-sgc6I                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>4         </TID><AID>0         </AID><CID>10        </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ714aOT03Z2iVbEgvKChsg-eegghNePil3j3LH_6jrEDnugP9D                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>2         </TID><AID>1         </AID><CID>11        </CID><URL>https://www.math.ku.edu/~wsanders/Kittens/new%20kittens/Funny-Cute-Kittens-8.jpg                                                                                                                        </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>3         </TID><AID>2         </AID><CID>12        </CID><URL>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8m5fJIy7osdWiH1K2Z1KOyUq2hDpy3G4qcGoLTaZKcXxqZi88                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>0         </TID><AID>3         </AID><CID>13        </CID><URL>http://images6.fanpop.com/image/photos/35400000/Cute-Kitten-on-a-stump-cute-kittens-35485487-1024-768.jpg                                                                                               </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>1         </TID><AID>4         </AID><CID>14        </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSU_da9XgfEBehCCpmCJmdj_FQQw8U2AnynDmQxBjUx4txs9CQV                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>4         </TID><AID>0         </AID><CID>15        </CID><URL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuekxWDTlg5jCfXPJ6pyuUiFQHR6hZ2Bo8UGCbmdSsZCogDQHo                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>2         </TID><AID>1         </AID><CID>16        </CID><URL>http://upload.wikimedia.org/wikipedia/commons/0/06/Kitten_in_Rizal_Park,_Manila.jpg                                                                                                                     </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>3         </TID><AID>2         </AID><CID>17        </CID><URL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBkI0SqJzLfnHgl6d08YxSbyAn5R3oShWalIOhUQTt00mpp9M                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>0         </TID><AID>3         </AID><CID>18        </CID><URL>http://static.comicvine.com/uploads/original/11113/111134695/3891249-8823548163-62459.jpg                                                                                                               </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>1         </TID><AID>4         </AID><CID>19        </CID><URL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSshxQrwzCAipwhenTXQ56FxD6qE-FkJkOkckTzrwAzDPCs9LQQ                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>2         </TID><AID>1         </AID><CID>21        </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHGCW-hAVG9IbPWQIsnJdUyvOqYK7DAXGcAiwJGRqw20Z6Wv_W                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>3         </TID><AID>2         </AID><CID>22        </CID><URL>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6pqLwJKDlU6dX6OAax2omrsP7D8sHcbKzUBgwhh-FZvTZUj7v                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>0         </TID><AID>3         </AID><CID>23        </CID><URL>http://www.austintexas.gov/sites/default/files/files/Animal_Services/cute-kitten-playing.jpg                                                                                                            </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>4         </TID><AID>0         </AID><CID>20        </CID><URL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7gK7YH9ZDiK_iu58vvQvN_oIqRh6-joQWI9t9FrMjKQI-KUI1                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+<tuple><TID>1         </TID><AID>4         </AID><CID>24        </CID><URL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSSNOXd_IgI0j0OJBgy8WCwxNeCTvu1NhQU61Dfs0hb01BGO5jt                                                                                                </URL><TYPE>photo                                                                                               </TYPE></tuple>
+</CONTENT>
 <RATETRIP>
+<tuple><TID>2         </TID><USERID>4         </USERID><RATING>10</RATING><TEXT>was awesome                                                                                                                                                     </TEXT></tuple>
+<tuple><TID>1         </TID><USERID>2         </USERID><RATING>5</RATING><TEXT>none                                                                                                                                                            </TEXT></tuple>
+<tuple><TID>0         </TID><USERID>1         </USERID><RATING>6</RATING><TEXT>had fun                                                                                                                                                         </TEXT></tuple>
+<tuple><TID>3         </TID><USERID>2         </USERID><RATING>7</RATING><TEXT>so great!                                                                                                                                                       </TEXT></tuple>
+<tuple><TID>4         </TID><USERID>4         </USERID><RATING>3</RATING><TEXT>meh                                                                                                                                                             </TEXT></tuple>
 </RATETRIP>
+<SHARECONTENT>
+</SHARECONTENT>
 <COMMENTTRIP>
 </COMMENTTRIP>
-<COMMENTPHOTOS>
-</COMMENTPHOTOS>
+<COMMENTCONTENT>
+</COMMENTCONTENT>
 <ITEMS>
 </ITEMS>
-<VIDEOS>
-</VIDEOS>
-<PHOTOS>
-</PHOTOS>
-<ALBUMS>
-</ALBUMS>
 </database>
