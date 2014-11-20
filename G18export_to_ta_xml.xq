@@ -14,12 +14,15 @@ return
    <affiliation>{data($user/AFFILIATION)}</affiliation>
    <interests>none</interests> 
    {
-        for $friends in doc($fpath)/database/FRIEND/tuple
-        let $users := doc($fpath)/database/USERS/tuple[USERID != $user/USERID]
-        where ($user/USERID = $friends/FRIEND1 or $user/USERID = $friends/FRIEND2)
-        return if( $user/USERID = $friends/FRIEND1)
-        then <friend>{ data($users[USERID = $friends/FRIEND2]/NAME)}</friend>
-        else <friend> {data($users[USERID = $friends/FRIEND1]/NAME)}</friend>  
+
+       for $friends in doc($fpath)/database/FRIEND/tuple
+       let $users := doc($fpath)/database/USERS/tuple[USERID != $user/USERID]
+       where ($user/USERID = $friends/FRIEND1 or $user/USERID = $friends/FRIEND2)
+       return if( $user/USERID = $friends/FRIEND1)
+     
+       then <friend>{ data($users[USERID = $friends/FRIEND2]/NAME)}</friend>
+       else <friend> {data($users[USERID = $friends/FRIEND1]/NAME)}</friend> 
+
    }
    {
      for $trip in doc($fpath)/database/TRIP/tuple
