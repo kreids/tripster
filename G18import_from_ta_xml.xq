@@ -1,4 +1,4 @@
-let $fpath := "ta_tripsterdata.xml"
+let $fpath := "project_data.xml"
 return <database>
   <TRIP>{
     for $user at $index in doc($fpath) / tripster / user
@@ -36,8 +36,36 @@ return <database>
       </tuple>
   }</FRIEND>
 
-  (: WENT ON TABLE HERE:)
-
+  <WENTON>{
+    for $user at $idx1 in doc($fpath)/tripster/user
+    for $otheruser at $idx2 in doc($fpath)/tripster/user
+    for $invited in $user/invite[status = 'accepted']
+    where $otheruser/email = $user/invite/friendid and $user/invite/status = 'accepted'
+    return
+    <tuple>
+      <TID>{ data($invited/tripid) }</TID>
+      <USERID>{data($idx2)}</USERID>
+    </tuple>   
+  }
+  {
+    for $user at $idx1 in doc($fpath)/tripster/user
+    where $user/request/status = 'accepted'
+    return 
+    <tuple>
+      <TID>{ data($user/request[status = 'accepted']/tripid) }</TID>
+      <USERID>{data($idx1)}</USERID>
+    </tuple>  
+  }
+  {
+   for $user at $idx1 in doc($fpath)/tripster/user
+   for $trip in $user/trip
+   return
+   <tuple>
+     <TID> {data($trip/id)}</TID>
+     <USERID>{data($idx1)}</USERID>
+   </tuple>
+  }
+  </WENTON>
   <INVITE>{
     for $user at $index1 in doc($fpath) / tripster / user
     for $trip in $user/trip
@@ -60,7 +88,7 @@ return <database>
       <tuple>
         <TID>{data($trip/id)}</TID>
         <AID>{data($album/id)}</AID>
-        <Name>{data($album/name)}</Name>
+        <NAME>{data($album/name)}</NAME>
         <PRIVACY_FLAG>{data($album/privacyFlag)}</PRIVACY_FLAG>
       </tuple>
   }</ALBUMS>

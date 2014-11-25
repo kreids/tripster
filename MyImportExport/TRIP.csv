@@ -1,0 +1,109 @@
+TID,LOCATION,NAME,PRIVACY_FLAG,USERID
+1,center city,A COOL TRIP,private,0
+4,San Jose,SWIMMING,private,0
+2,university city,NO GOOD,private,1
+3,calabash mountain,LET'S GO,private,2
+5,Raleigh,DIVE,private,3
+100,Kyoto Tokyo,Japan Trip,sharedWithTripMembers,5
+400,Hawaii,Hawaii Trip,private,6
+500,San Francisco,San Francisco,private,6
+301,Beijing,China Trip,private,7
+208,Mexico City,Mexico Trip,sharedWithTripMembers,8
+307,France,Christmas in France,public,10
+110,Philadelphia New York Boston,East Coast Trip,public,11
+211,India,Asia Trip,public,12
+4001,Goa,Goa,private,15
+4003,NewZealand,NewZealand,private,16
+4002,Singapore,Singapore,private,17
+4005,Switzerland,Goa,private,18
+5004,europe,Switzerland,private,19
+109,
+      ,European,private,20
+27,philly,Philadelphia Tour,private,21
+35,
+      ,Ann Arbor,private,22
+41,
+      ,New Jersey advent,private,23
+15,
+      ,World Tour,private,24
+11,London,TripA,public,25
+32,Paris,TripB,public,26
+53,NY,TripC,private,27
+44,SFO,TripD,private,28
+55,Chicago,TripE,public,29
+91,Paris, France Paris of France Versailles, France,First Time to Paris,public,33
+203,Prague, Czech Republic,Tours of Prague,public,33
+5350,
+      ,Spring Breakers,public,33
+28,Prague of Czech Republic,Tours of Prague,public,34
+57,
+      ,Spring Breakers,public,34
+59,
+      ,Spring Breakers,public,35
+555,
+      ,Spring Breakers,public,36
+503,
+      ,Spring Breakers,public,37
+105,MONTREAL,Montreal_Summer_2014,public,38
+217,NEW YORK CITY, NY,New_York_Winter_2013,private,39
+309,KERALA,INDIA TAJMAHAL, AGRA, INDIA,India_Fall_2012,sharedWithTripMembers,40
+415,TURKEY,Istanbul_Spring_2011,sharedWithTripMembers,41
+535,ANTARCTICA,Antarctica_Summer_2010,public,42
+147,ROCKY MOUNTAINS,Awesome Trip!,public,43
+286,TOKYO,Fantastic Trip!,private,44
+38,ALASKA,Happy Trip!,private,45
+49,CARIBBEAN SEA,Where to go?,public,46
+50,UPENN,Hevean Trip,sharedWithTripMembers,47
+142,Hometown Paris,foo name,private,48
+26,Amsterdam,foo name,private,49
+36,Tokyo of Japan,foo name,private,50
+412,Bruges,foo name,private,51
+509,Paris, Texas,foo name,private,52
+133,Island 1,Trip 1,private,53
+9211,Island 2,Trip 2,public,54
+369,Island 3,Trip 3,private,55
+407,Island 4,Trip 4,public,56
+765,Island 5,Trip 5,private,57
+290,Guam blind Pig guam,Tand Brip,public,58
+112,Starbucks Chili's,Director's Choice,public,59
+511,Lovely Starbucks Dunkin Donuts my Starbucks cute Guam Paris of Kentucky,LXA,public,60
+333,the Guam,Hoo Hah!,sharedWithTripMembers,61
+77,Paris, Kentucky coffee shop oooh Guam,Stouffer Jaunt,public,62
+86,Disney World New York, NY,trip_name,public,63
+90,Liberty Bell San Diego, CA,trip_name,public,64
+991,Levine Hall Paris, FR,trip_name,public,65
+95,Wells Fargo Center Milan, IT,trip_name,public,66
+94,The Shire Mount Rushmore,trip_name,public,67
+92,TOKYO of Japan,Tokyo Fun,private,68
+71,Rome,Italia - Roma,private,69
+73,Munich,Oktoberfest,private,70
+70,Las Vegas,Las Vegas Baby,private,71
+64,Mount Vesuvius,Fun in the Sun,private,72
+65,Six Flags,Anh Birthday,public,73
+154,Stonehenge,Boys Vacation,public,74
+83,Miami Beach,Anniversary,public,76
+61,Las Vegas, CA, USA,default name,private,77
+832,California,default name,private,78
+391,New York City,default name,private,79
+414,Canada,default name,private,80
+541,Texas,default name,public,81
+1001,the Philadelphia, PA,Philly,private,82
+1005,Winterfell,Winterfell,private,82
+1002,New York, state of NY,New York,private,83
+1004,Bay Harbor Islands,Bay Harbor Islands,private,83
+1003,Mordor,Mordor,private,86
+11002,ny,New York,private,87
+2001,Seattle,Seatle,private,88
+377,Miami,Philadelphia,private,89
+498,nice philly,Miami,private,90
+574,Dead sea,Los Angeles,private,91
+11511,warm Hawaii,Beach Trip 2015,private,92
+502,Yosemite,Camping,public,93
+673,Poconos,Snow Boarding Trip 2015,private,94
+634,Australia,Study Abroad 2014,public,95
+2005,Tokyo, cap of Japan,Visiting my friends!!!,private,95
+3001,London, UK,TripA,public,97
+3002,cap of France,TripB,public,98
+3003,New York, NY state,TripC,private,99
+3004,San Francisco of California,TripD,private,100
+3005,Chicago, USA,TripE,public,101

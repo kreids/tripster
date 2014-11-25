@@ -27,7 +27,7 @@ public class LoadTAXML_toYourTable {
 	int column;
 	
 	public LoadTAXML_toYourTable() throws ClassNotFoundException, SQLException, IOException {
-		xmlInput = new BufferedReader(new FileReader("import.xml"));
+		xmlInput = new BufferedReader(new FileReader("G18_import.xml"));
 	}
 	
 	public void close() {

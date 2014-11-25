@@ -1,0 +1,111 @@
+USERID,ENCRYPTEDPASS,AFFILIATION,NAME,EMAIL
+1,null,Penn,Lawson,lawson@upenn.com
+2,null,Penn,Goodson,goodson@penn.edu
+3,null,Drexel,Badson,badson@bad.com
+4,null,JHU,Wasaba,spicy@food.com
+5,null,PHD,Nana,nana@nana.edu
+6,null,Upenn,Zhouying Fan,fanzyland2004@gmail.com
+7,null,Upenn,Yi Peng,peng1@seas.upenn.edu
+8,null,Upenn,Yan Li,liyan6@seas.upenn.edu
+9,null,Upenn,Taorui Cui,terrycui0811@gmail.com
+10,null,Upenn,Guagua Er,guaguaer01@gmail.com
+11,null,Penn,Vinay Londhe,vinay@upenn.edu
+12,null,Penn,Brad Palchesko,brad@upenn.edu
+13,null,Penn,Sandesh Kumar,sandesh@upenn.edu
+14,null,Penn,Pierre Rohel,pierre@upenn.edu
+15,null,Penn,Barack Obama,barack@upenn.edu
+16,null,Academic,Rohit,rohit.dureja@gmail.com
+17,null,Academic,Rahul,durejarahul1810@gmail.com
+18,null,Academic,Sibi,sibiv@seas.upenn.edu
+19,null,Academic,Avinash,avinashr@seas.upenn.edu
+20,null,Academic,Rishabh,rgulati@seas.upenn.edu
+21,null,student,davo,
+      
+22,null,Penn,Kevin Mu,
+      
+23,null,Michigan,Flint Mu,
+      
+24,null,Princeton,Real Kevin Mu,
+      
+25,null,Earth,Globe Trotter,
+      
+26,null,Penn,Nishant Junankar,nishjunankar@gmail.com
+27,null,Penn,Alexander Kornhauser,kornha@seas.upenn.edu
+28,null,Penn,Test Person,nishj@seas.upenn.edu
+29,null,Penn,David Wright,5dwright4mvp@gmail.com
+30,null,Penn,LeBron James,lebron.james@gmail.com
+31,null,Penn,Thomas Brady,isuckatfootball@gmail.com
+32,null,Penn,Sterling Archer,secretagent@gmail.com
+33,null,Penn,Minhee Lee,lemin@seas.upenn.edu
+34,null,None,Michael Molisani,null@email.com
+35,null,None,Max Morant,null@email.com
+36,null,None,Rachel Brown,null@email.com
+37,null,None,Emily Weiss,null@email.com
+38,null,None,Momma Weiss,null@email.com
+39,null,Penn,Andrew Allen,AAllen@yahoo.com
+40,null,Microsoft,Tina Tully,ttully@amazon.com
+41,null,Google,Kim Kardashian,kimK4Ever@gmail.com
+42,null,Autodesk,Jared Dillon,dillmon@gmail.com
+43,null,MIT,Angel Viera,angelV12@hotmail.com
+44,null,Apple Inc.,Steve Jobs,superman@gmail.com
+45,null,Microsoft Inc.,Bill Gates,spiderman@gmail.com
+46,null,Google Inc.,Larry Pages,batman@gmail.com
+47,null,Y Combinator,Peter Thiel,musketeers
+48,null,Penn,Harry Potter,donquixote@gmail.com
+49,null,Penn,richardo,richardo@example.com
+50,null,Drexel,vozka,vozka@example.com
+51,null,Temple,washington,washington@example.com
+52,null,Memorial,lincoln,lincoln@example.com
+53,null,Penn,egg,egg@example.com
+54,null,Penn,Josh,jp
+55,null,Penn,Lexi,ls
+56,null,Penn,Robbie,rc
+57,null,Penn,Something,ss
+58,null,Penn,Test,tt
+59,null,PAC,Penn Guamanian Cooking Brigade,ted.guenin@gmail.com
+60,null,Chicago,University Toppah,tpeterson14143@gmail.com
+61,null,Lambda Chi Alpha,Jack Mason,masonje@wharton.upenn.edu
+62,null,University Choir,N Eric Cordgren,penncleeglub@mgail.com
+63,null,Art Club,Paul Mullet,mulletsonmullets@paul.paul
+64,null,Explorers Inc.,Johnny Appleseed,noemail@gmail.com
+65,null,Penn,Jane Doe,noemail@gmail.com
+66,null,Princeton,John Doe,noemail@gmail.com
+67,null,Happy Madison,Adam Sandler,noemail@gmail.com
+68,null,BlueCoats LLC.,George Washington,noemail@gmail.com
+69,null,screen actors guild,Brad Pitt,bpitt@gmail.com
+70,null,screen actors guild,Tina Fey,tfey@yahoo.com
+71,null,Jackson5,Michael Jackson,bubbles@hotmail.com
+72,null,University Of Cambridge,Alan Turing,tMoney@gmail.com
+73,null,Kentucky Fried Chicken,Colonel Sanders,chicken@kfc.com
+74,null,Penn,Anh,null
+75,null,Penn,Hua,null
+76,null,FSU,Laura,null
+77,null,Ripple,Andre,null
+78,null,none,John,null
+79,null,none,Tom,null
+80,null,none,Derrick,null
+81,null,none,Rose,null
+82,null,none,Rod,null
+83,null,Starks,Ned Stark,beheaded@yahoo.com
+84,null,Miami,Dexter Morgan,serial@yahoo.com
+85,null,Penn,Jill Hill,jill@gmail.com
+86,null,X-men,Charles Xavier,profx@gmail.com
+87,null,Fellowship of the Ring,Frodo Baggins,underhill@shire.com
+88,null,upenn,David,david@gmail.com
+89,null,hello,Daniel,Daniel@gmail.com
+90,null,cmu,Karl,karl@gmail.com
+91,null,stanford,Kate,kate@gmail.com
+92,null,Upenn,Jessica,Jessica@seas.upenn.edu
+93,null,Penn,Matt Stagitis,matt@upenn.edu
+94,null,Penn,Patrick Kearney,patrick@upenn.edu
+95,null,Penn,Manashree Damle,mdamle@seas.upenn.edu
+96,null,Penn,Vineet Unknown,vineet@upenn.edu
+97,null,Penn,Sanika Fakename,sanika@upenn.edu
+98,null,Penn,Nishant Junankar,nishjunankar@gmail.com
+99,null,Penn,Alexander Kornhauser,kornha@seas.upenn.edu
+100,null,Penn,Test Person,nishj@seas.upenn.edu
+101,null,Penn,David Wright,5dwright4mvp@gmail.com
+102,null,Penn,LeBron James,lebron.james@gmail.com
+103,null,Penn,Thomas Brady,isuckatfootball@gmail.com
+104,null,Penn,Sterling Archer,secretagent@gmail.com
+105,null,Penn,Minhee Lee,lemin@seas.upenn.edu

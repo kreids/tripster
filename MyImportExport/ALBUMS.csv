@@ -1,0 +1,108 @@
+TID,AID,NAME,PRIVACY_FLAG
+1,1,GOOD PHOTOS,private
+4,4,WE ARE HAPPY,private
+2,2,FIRST WEEK,private
+3,3,LAST DAY,private
+5,5,NO VIEW,private
+100,1,japan photos,sharedWithTripMembers
+400,4,SF photos,private
+500,5,Hawaii photos,private
+301,3,china photos,private
+208,2,mexico photos,sharedWithTripMembers
+307,4,At the beach,public
+307,5,Selfies/pics of food,public
+110,1,People of Walmart,public
+110,2,Boring museums,public
+211,3,NSFW,public
+4001,1,Cool Pics,private
+4003,3,Pictures,private
+4002,2,Trip pics,private
+4005,5,Scenic,private
+5004,4,Pics,private
+109,1,Best Trip Yet,private
+27,2,Philly Is The Best,sharedWithTripMembers
+35,3,AA Freezing Trip,private
+41,4,NJ Is The Worst,sharedWithTripMembers
+15,5,The World Captured,sharedWithTripMembers
+11,1,Album1,public
+32,2,My Fun Album,public
+53,3,A Cool Trip,public
+44,4,Fun Trip,public
+55,5,This trip sucked,public
+91,4,Eiffel Tower/,public
+203,1,The Golden City/,public
+5350,5,Spring Break B**tch/,private
+28,1,The Golden City/,public
+57,5,Spring Break B**tch/,private
+59,5,Spring Break B**tch/,private
+555,5,Spring Break B**tch/,private
+503,5,Spring Break B**tch/,private
+105,1,FUN_AT_MONTREAL,public
+217,2,ROCKING_AT_NYC,private
+309,3,GOING_DESI,sharedWithTripMembers
+415,4,TRIP_TO_TURKEY,sharedWithTripMembers
+535,5,ICEBERGGY_TRIP,sharedWithTripMembers
+147,1,trip1 album,public
+286,2,trip2 album,public
+38,3,trip3 album,public
+49,4,trip4 album,private
+50,5,trip4 album,private
+142,1,First Week,private
+26,2,Last Week,private
+36,3,Tokyo Story,private
+412,4,In Bruges,private
+509,5,Yee-Haw,private
+133,1,
+      ,private
+9211,2,
+      ,public
+369,3,
+      ,private
+407,4,
+      ,public
+765,5,
+      ,private
+290,2,PGCB on Tour,public
+112,1,The Life of TFP,public
+511,5,Stouffer's Travels,public
+333,3,Nord's Guamanian Adventures,public
+77,4,Stouffer's Travels,public
+86,22,Crazy Adventures,public
+90,55,Super Duper Times in Scotland,public
+991,11,Amazing Trip,public
+95,44,Euphoria in Europe,public
+94,33,Amazing Week in Paradise,public
+92,2,The Golden Temple,private
+71,4,Roma,private
+71,5,La Dolce Vita,private
+73,3,Das Boot,private
+70,1,Is this the real Caesars Palace?,private
+64,0,Forgot My Sunglasses,private
+65,5,Anh Birthday,public
+154,4,Boys Vacation,public
+83,3,Anniversary,public
+61,1,What stays in Vegas,public
+832,2,Hawaii, jk Canada,public
+391,3,Cali Heyyy,public
+414,4,The Lone Star State,public
+541,5,Road Trip-2013,public
+1001,1,Philly,public
+1005,5,Winterfell,public
+1002,2,New York,public
+1004,4,Bay Harbor Islands,public
+1003,3,Mordor,public
+11002,2,alb,public
+2001,1,seattlealb,public
+377,3,alb,public
+498,4,alb,public
+574,5,alb,public
+11511,1,Surfing!,private
+502,4,Camping and stuff,public
+673,2,Poconos,private
+634,5,School :(,public
+2005,3,Friends!,private
+3001,1,Album1,public
+3002,2,My Fun Album,public
+3003,3,A Cool Trip,public
+3004,4,Fun Trip,public
+3005,5,This trip sucked,public
