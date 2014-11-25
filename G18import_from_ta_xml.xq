@@ -3,13 +3,14 @@ return <database>
   <TRIP>{
     for $user at $index in doc($fpath) / tripster / user
     for $trip in $user/trip
+    for $loc in $trip/location
     return
       <tuple>
         <TID>{data($trip/id)}</TID>
-        <LOCATION>{data($trip/location/name)}</LOCATION>
+        <LOCATION>{data($loc/name)}</LOCATION>
         <NAME>{data($trip/name)}</NAME>
         <PRIVACY_FLAG>{data($trip/privacyFlag)}</PRIVACY_FLAG>
-        <USERID>{data($index - 1)}</USERID>
+        <USERID>{data($index)}</USERID>
       </tuple>
   }</TRIP>
     
