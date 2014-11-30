@@ -5,131 +5,145 @@
       <LOCATION>center city</LOCATION>
       <NAME>A COOL TRIP</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>0</USERID>
+      <USERID>1</USERID>
     </tuple>
     <tuple>
       <TID>4</TID>
       <LOCATION>San Jose</LOCATION>
       <NAME>SWIMMING</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>0</USERID>
+      <USERID>1</USERID>
     </tuple>
     <tuple>
       <TID>2</TID>
       <LOCATION>university city</LOCATION>
       <NAME>NO GOOD</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>1</USERID>
+      <USERID>2</USERID>
     </tuple>
     <tuple>
       <TID>3</TID>
       <LOCATION>calabash mountain</LOCATION>
       <NAME>LET'S GO</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>2</USERID>
+      <USERID>3</USERID>
     </tuple>
     <tuple>
       <TID>5</TID>
       <LOCATION>Raleigh</LOCATION>
       <NAME>DIVE</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>3</USERID>
+      <USERID>4</USERID>
     </tuple>
     <tuple>
       <TID>100</TID>
-      <LOCATION>Kyoto Tokyo</LOCATION>
+      <LOCATION>Kyoto</LOCATION>
       <NAME>Japan Trip</NAME>
       <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
-      <USERID>5</USERID>
+      <USERID>6</USERID>
+    </tuple>
+    <tuple>
+      <TID>100</TID>
+      <LOCATION>Tokyo</LOCATION>
+      <NAME>Japan Trip</NAME>
+      <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
+      <USERID>6</USERID>
     </tuple>
     <tuple>
       <TID>400</TID>
       <LOCATION>Hawaii</LOCATION>
       <NAME>Hawaii Trip</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>6</USERID>
+      <USERID>7</USERID>
     </tuple>
     <tuple>
       <TID>500</TID>
       <LOCATION>San Francisco</LOCATION>
       <NAME>San Francisco</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>6</USERID>
+      <USERID>7</USERID>
     </tuple>
     <tuple>
       <TID>301</TID>
       <LOCATION>Beijing</LOCATION>
       <NAME>China Trip</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>7</USERID>
+      <USERID>8</USERID>
     </tuple>
     <tuple>
       <TID>208</TID>
       <LOCATION>Mexico City</LOCATION>
       <NAME>Mexico Trip</NAME>
       <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
-      <USERID>8</USERID>
+      <USERID>9</USERID>
     </tuple>
     <tuple>
       <TID>307</TID>
       <LOCATION>France</LOCATION>
       <NAME>Christmas in France</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>10</USERID>
+      <USERID>11</USERID>
     </tuple>
     <tuple>
       <TID>110</TID>
-      <LOCATION>Philadelphia New York Boston</LOCATION>
+      <LOCATION>Philadelphia</LOCATION>
       <NAME>East Coast Trip</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>11</USERID>
+      <USERID>12</USERID>
+    </tuple>
+    <tuple>
+      <TID>110</TID>
+      <LOCATION>New York</LOCATION>
+      <NAME>East Coast Trip</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>12</USERID>
+    </tuple>
+    <tuple>
+      <TID>110</TID>
+      <LOCATION>Boston</LOCATION>
+      <NAME>East Coast Trip</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>12</USERID>
     </tuple>
     <tuple>
       <TID>211</TID>
       <LOCATION>India</LOCATION>
       <NAME>Asia Trip</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>12</USERID>
+      <USERID>13</USERID>
     </tuple>
     <tuple>
       <TID>4001</TID>
       <LOCATION>Goa</LOCATION>
       <NAME>Goa</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>15</USERID>
+      <USERID>16</USERID>
     </tuple>
     <tuple>
       <TID>4003</TID>
       <LOCATION>NewZealand</LOCATION>
       <NAME>NewZealand</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>16</USERID>
+      <USERID>17</USERID>
     </tuple>
     <tuple>
       <TID>4002</TID>
       <LOCATION>Singapore</LOCATION>
       <NAME>Singapore</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>17</USERID>
+      <USERID>18</USERID>
     </tuple>
     <tuple>
       <TID>4005</TID>
       <LOCATION>Switzerland</LOCATION>
       <NAME>Goa</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>18</USERID>
+      <USERID>19</USERID>
     </tuple>
     <tuple>
       <TID>5004</TID>
       <LOCATION>europe</LOCATION>
       <NAME>Switzerland</NAME>
-      <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>19</USERID>
-    </tuple>
-    <tuple>
-      <TID>109</TID>
-      <LOCATION/>
-      <NAME>European</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
       <USERID>20</USERID>
     </tuple>
@@ -138,560 +152,623 @@
       <LOCATION>philly</LOCATION>
       <NAME>Philadelphia Tour</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>21</USERID>
-    </tuple>
-    <tuple>
-      <TID>35</TID>
-      <LOCATION/>
-      <NAME>Ann Arbor</NAME>
-      <PRIVACY_FLAG>private</PRIVACY_FLAG>
       <USERID>22</USERID>
-    </tuple>
-    <tuple>
-      <TID>41</TID>
-      <LOCATION/>
-      <NAME>New Jersey advent</NAME>
-      <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>23</USERID>
-    </tuple>
-    <tuple>
-      <TID>15</TID>
-      <LOCATION/>
-      <NAME>World Tour</NAME>
-      <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>24</USERID>
     </tuple>
     <tuple>
       <TID>11</TID>
       <LOCATION>London</LOCATION>
       <NAME>TripA</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>25</USERID>
+      <USERID>26</USERID>
     </tuple>
     <tuple>
       <TID>32</TID>
       <LOCATION>Paris</LOCATION>
       <NAME>TripB</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>26</USERID>
+      <USERID>27</USERID>
     </tuple>
     <tuple>
       <TID>53</TID>
       <LOCATION>NY</LOCATION>
       <NAME>TripC</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>27</USERID>
+      <USERID>28</USERID>
     </tuple>
     <tuple>
       <TID>44</TID>
       <LOCATION>SFO</LOCATION>
       <NAME>TripD</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>28</USERID>
+      <USERID>29</USERID>
     </tuple>
     <tuple>
       <TID>55</TID>
       <LOCATION>Chicago</LOCATION>
       <NAME>TripE</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>29</USERID>
+      <USERID>30</USERID>
     </tuple>
     <tuple>
       <TID>91</TID>
-      <LOCATION>Paris, France Paris of France Versailles, France</LOCATION>
+      <LOCATION>Paris, France</LOCATION>
       <NAME>First Time to Paris</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>33</USERID>
+      <USERID>34</USERID>
+    </tuple>
+    <tuple>
+      <TID>91</TID>
+      <LOCATION>Paris of France</LOCATION>
+      <NAME>First Time to Paris</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>34</USERID>
+    </tuple>
+    <tuple>
+      <TID>91</TID>
+      <LOCATION>Versailles, France</LOCATION>
+      <NAME>First Time to Paris</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>34</USERID>
     </tuple>
     <tuple>
       <TID>203</TID>
       <LOCATION>Prague, Czech Republic</LOCATION>
       <NAME>Tours of Prague</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>33</USERID>
-    </tuple>
-    <tuple>
-      <TID>5350</TID>
-      <LOCATION/>
-      <NAME>Spring Breakers</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>33</USERID>
+      <USERID>34</USERID>
     </tuple>
     <tuple>
       <TID>28</TID>
       <LOCATION>Prague of Czech Republic</LOCATION>
       <NAME>Tours of Prague</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>34</USERID>
-    </tuple>
-    <tuple>
-      <TID>57</TID>
-      <LOCATION/>
-      <NAME>Spring Breakers</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>34</USERID>
-    </tuple>
-    <tuple>
-      <TID>59</TID>
-      <LOCATION/>
-      <NAME>Spring Breakers</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>35</USERID>
-    </tuple>
-    <tuple>
-      <TID>555</TID>
-      <LOCATION/>
-      <NAME>Spring Breakers</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>36</USERID>
-    </tuple>
-    <tuple>
-      <TID>503</TID>
-      <LOCATION/>
-      <NAME>Spring Breakers</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>37</USERID>
     </tuple>
     <tuple>
       <TID>105</TID>
       <LOCATION>MONTREAL</LOCATION>
       <NAME>Montreal_Summer_2014</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>38</USERID>
-    </tuple>
-    <tuple>
-      <TID>217</TID>
-      <LOCATION>NEW YORK CITY, NY</LOCATION>
-      <NAME>New_York_Winter_2013</NAME>
-      <PRIVACY_FLAG>private</PRIVACY_FLAG>
       <USERID>39</USERID>
     </tuple>
     <tuple>
+      <TID>217</TID>
+      <LOCATION>NEW YORK CITY NY</LOCATION>
+      <NAME>New_York_Winter_2013</NAME>
+      <PRIVACY_FLAG>private</PRIVACY_FLAG>
+      <USERID>40</USERID>
+    </tuple>
+    <tuple>
       <TID>309</TID>
-      <LOCATION>KERALA,INDIA TAJMAHAL, AGRA, INDIA</LOCATION>
+      <LOCATION>KERALA INDIA</LOCATION>
       <NAME>India_Fall_2012</NAME>
       <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
-      <USERID>40</USERID>
+      <USERID>41</USERID>
+    </tuple>
+    <tuple>
+      <TID>309</TID>
+      <LOCATION>TAJMAHAL AGRA INDIA</LOCATION>
+      <NAME>India_Fall_2012</NAME>
+      <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
+      <USERID>41</USERID>
     </tuple>
     <tuple>
       <TID>415</TID>
       <LOCATION>TURKEY</LOCATION>
       <NAME>Istanbul_Spring_2011</NAME>
       <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
-      <USERID>41</USERID>
+      <USERID>42</USERID>
     </tuple>
     <tuple>
       <TID>535</TID>
       <LOCATION>ANTARCTICA</LOCATION>
       <NAME>Antarctica_Summer_2010</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>42</USERID>
+      <USERID>43</USERID>
     </tuple>
     <tuple>
       <TID>147</TID>
       <LOCATION>ROCKY MOUNTAINS</LOCATION>
       <NAME>Awesome Trip!</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>43</USERID>
+      <USERID>44</USERID>
     </tuple>
     <tuple>
       <TID>286</TID>
       <LOCATION>TOKYO</LOCATION>
       <NAME>Fantastic Trip!</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>44</USERID>
+      <USERID>45</USERID>
     </tuple>
     <tuple>
       <TID>38</TID>
       <LOCATION>ALASKA</LOCATION>
       <NAME>Happy Trip!</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>45</USERID>
+      <USERID>46</USERID>
     </tuple>
     <tuple>
       <TID>49</TID>
       <LOCATION>CARIBBEAN SEA</LOCATION>
       <NAME>Where to go?</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>46</USERID>
+      <USERID>47</USERID>
     </tuple>
     <tuple>
       <TID>50</TID>
       <LOCATION>UPENN</LOCATION>
       <NAME>Hevean Trip</NAME>
       <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
-      <USERID>47</USERID>
+      <USERID>48</USERID>
     </tuple>
     <tuple>
       <TID>142</TID>
       <LOCATION>Hometown Paris</LOCATION>
       <NAME>foo name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>48</USERID>
+      <USERID>49</USERID>
     </tuple>
     <tuple>
       <TID>26</TID>
       <LOCATION>Amsterdam</LOCATION>
       <NAME>foo name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>49</USERID>
+      <USERID>50</USERID>
     </tuple>
     <tuple>
       <TID>36</TID>
       <LOCATION>Tokyo of Japan</LOCATION>
       <NAME>foo name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>50</USERID>
+      <USERID>51</USERID>
     </tuple>
     <tuple>
       <TID>412</TID>
       <LOCATION>Bruges</LOCATION>
       <NAME>foo name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>51</USERID>
+      <USERID>52</USERID>
     </tuple>
     <tuple>
       <TID>509</TID>
       <LOCATION>Paris, Texas</LOCATION>
       <NAME>foo name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>52</USERID>
+      <USERID>53</USERID>
     </tuple>
     <tuple>
       <TID>133</TID>
       <LOCATION>Island 1</LOCATION>
       <NAME>Trip 1</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>53</USERID>
+      <USERID>54</USERID>
     </tuple>
     <tuple>
       <TID>9211</TID>
       <LOCATION>Island 2</LOCATION>
       <NAME>Trip 2</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>54</USERID>
+      <USERID>55</USERID>
     </tuple>
     <tuple>
       <TID>369</TID>
       <LOCATION>Island 3</LOCATION>
       <NAME>Trip 3</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>55</USERID>
+      <USERID>56</USERID>
     </tuple>
     <tuple>
       <TID>407</TID>
       <LOCATION>Island 4</LOCATION>
       <NAME>Trip 4</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>56</USERID>
+      <USERID>57</USERID>
     </tuple>
     <tuple>
       <TID>765</TID>
       <LOCATION>Island 5</LOCATION>
       <NAME>Trip 5</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>57</USERID>
-    </tuple>
-    <tuple>
-      <TID>290</TID>
-      <LOCATION>Guam blind Pig guam</LOCATION>
-      <NAME>Tand Brip</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>58</USERID>
     </tuple>
     <tuple>
-      <TID>112</TID>
-      <LOCATION>Starbucks Chili's</LOCATION>
-      <NAME>Director's Choice</NAME>
+      <TID>290</TID>
+      <LOCATION>Guam</LOCATION>
+      <NAME>Tand Brip</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>59</USERID>
     </tuple>
     <tuple>
-      <TID>511</TID>
-      <LOCATION>Lovely Starbucks Dunkin Donuts my Starbucks cute Guam Paris of Kentucky</LOCATION>
-      <NAME>LXA</NAME>
+      <TID>290</TID>
+      <LOCATION>blind Pig</LOCATION>
+      <NAME>Tand Brip</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>59</USERID>
+    </tuple>
+    <tuple>
+      <TID>290</TID>
+      <LOCATION>guam</LOCATION>
+      <NAME>Tand Brip</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>59</USERID>
+    </tuple>
+    <tuple>
+      <TID>112</TID>
+      <LOCATION>Starbucks</LOCATION>
+      <NAME>Director's Choice</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>60</USERID>
+    </tuple>
+    <tuple>
+      <TID>112</TID>
+      <LOCATION>Chili's</LOCATION>
+      <NAME>Director's Choice</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>60</USERID>
+    </tuple>
+    <tuple>
+      <TID>511</TID>
+      <LOCATION>Lovely Starbucks</LOCATION>
+      <NAME>LXA</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>61</USERID>
+    </tuple>
+    <tuple>
+      <TID>511</TID>
+      <LOCATION>Dunkin Donuts</LOCATION>
+      <NAME>LXA</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>61</USERID>
+    </tuple>
+    <tuple>
+      <TID>511</TID>
+      <LOCATION>my Starbucks</LOCATION>
+      <NAME>LXA</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>61</USERID>
+    </tuple>
+    <tuple>
+      <TID>511</TID>
+      <LOCATION>cute Guam</LOCATION>
+      <NAME>LXA</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>61</USERID>
+    </tuple>
+    <tuple>
+      <TID>511</TID>
+      <LOCATION>Paris of Kentucky</LOCATION>
+      <NAME>LXA</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>61</USERID>
     </tuple>
     <tuple>
       <TID>333</TID>
       <LOCATION>the Guam</LOCATION>
       <NAME>Hoo Hah!</NAME>
       <PRIVACY_FLAG>sharedWithTripMembers</PRIVACY_FLAG>
-      <USERID>61</USERID>
-    </tuple>
-    <tuple>
-      <TID>77</TID>
-      <LOCATION>Paris, Kentucky coffee shop oooh Guam</LOCATION>
-      <NAME>Stouffer Jaunt</NAME>
-      <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>62</USERID>
     </tuple>
     <tuple>
-      <TID>86</TID>
-      <LOCATION>Disney World New York, NY</LOCATION>
-      <NAME>trip_name</NAME>
+      <TID>77</TID>
+      <LOCATION>Paris, Kentucky</LOCATION>
+      <NAME>Stouffer Jaunt</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>63</USERID>
     </tuple>
     <tuple>
-      <TID>90</TID>
-      <LOCATION>Liberty Bell San Diego, CA</LOCATION>
+      <TID>77</TID>
+      <LOCATION>coffee shop</LOCATION>
+      <NAME>Stouffer Jaunt</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>63</USERID>
+    </tuple>
+    <tuple>
+      <TID>77</TID>
+      <LOCATION>oooh Guam</LOCATION>
+      <NAME>Stouffer Jaunt</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>63</USERID>
+    </tuple>
+    <tuple>
+      <TID>86</TID>
+      <LOCATION>Disney World</LOCATION>
       <NAME>trip_name</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>64</USERID>
     </tuple>
     <tuple>
-      <TID>991</TID>
-      <LOCATION>Levine Hall Paris, FR</LOCATION>
+      <TID>86</TID>
+      <LOCATION>New York, NY</LOCATION>
+      <NAME>trip_name</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>64</USERID>
+    </tuple>
+    <tuple>
+      <TID>90</TID>
+      <LOCATION>Liberty Bell</LOCATION>
       <NAME>trip_name</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>65</USERID>
     </tuple>
     <tuple>
-      <TID>95</TID>
-      <LOCATION>Wells Fargo Center Milan, IT</LOCATION>
+      <TID>90</TID>
+      <LOCATION>San Diego, CA</LOCATION>
+      <NAME>trip_name</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>65</USERID>
+    </tuple>
+    <tuple>
+      <TID>991</TID>
+      <LOCATION>Levine Hall</LOCATION>
       <NAME>trip_name</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>66</USERID>
     </tuple>
     <tuple>
-      <TID>94</TID>
-      <LOCATION>The Shire Mount Rushmore</LOCATION>
+      <TID>991</TID>
+      <LOCATION>Paris, FR</LOCATION>
+      <NAME>trip_name</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>66</USERID>
+    </tuple>
+    <tuple>
+      <TID>95</TID>
+      <LOCATION>Wells Fargo Center</LOCATION>
       <NAME>trip_name</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
       <USERID>67</USERID>
+    </tuple>
+    <tuple>
+      <TID>95</TID>
+      <LOCATION>Milan, IT</LOCATION>
+      <NAME>trip_name</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>67</USERID>
+    </tuple>
+    <tuple>
+      <TID>94</TID>
+      <LOCATION>The Shire</LOCATION>
+      <NAME>trip_name</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>68</USERID>
+    </tuple>
+    <tuple>
+      <TID>94</TID>
+      <LOCATION>Mount Rushmore</LOCATION>
+      <NAME>trip_name</NAME>
+      <PRIVACY_FLAG>public</PRIVACY_FLAG>
+      <USERID>68</USERID>
     </tuple>
     <tuple>
       <TID>92</TID>
       <LOCATION>TOKYO of Japan</LOCATION>
       <NAME>Tokyo Fun</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>68</USERID>
+      <USERID>69</USERID>
     </tuple>
     <tuple>
       <TID>71</TID>
       <LOCATION>Rome</LOCATION>
       <NAME>Italia - Roma</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>69</USERID>
+      <USERID>70</USERID>
     </tuple>
     <tuple>
       <TID>73</TID>
       <LOCATION>Munich</LOCATION>
       <NAME>Oktoberfest</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>70</USERID>
+      <USERID>71</USERID>
     </tuple>
     <tuple>
       <TID>70</TID>
       <LOCATION>Las Vegas</LOCATION>
       <NAME>Las Vegas Baby</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>71</USERID>
+      <USERID>72</USERID>
     </tuple>
     <tuple>
       <TID>64</TID>
       <LOCATION>Mount Vesuvius</LOCATION>
       <NAME>Fun in the Sun</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>72</USERID>
+      <USERID>73</USERID>
     </tuple>
     <tuple>
       <TID>65</TID>
       <LOCATION>Six Flags</LOCATION>
       <NAME>Anh Birthday</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>73</USERID>
+      <USERID>74</USERID>
     </tuple>
     <tuple>
       <TID>154</TID>
       <LOCATION>Stonehenge</LOCATION>
       <NAME>Boys Vacation</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>74</USERID>
+      <USERID>75</USERID>
     </tuple>
     <tuple>
       <TID>83</TID>
       <LOCATION>Miami Beach</LOCATION>
       <NAME>Anniversary</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>76</USERID>
+      <USERID>77</USERID>
     </tuple>
     <tuple>
       <TID>61</TID>
       <LOCATION>Las Vegas, CA, USA</LOCATION>
       <NAME>default name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>77</USERID>
+      <USERID>78</USERID>
     </tuple>
     <tuple>
       <TID>832</TID>
       <LOCATION>California</LOCATION>
       <NAME>default name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>78</USERID>
+      <USERID>79</USERID>
     </tuple>
     <tuple>
       <TID>391</TID>
       <LOCATION>New York City</LOCATION>
       <NAME>default name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>79</USERID>
+      <USERID>80</USERID>
     </tuple>
     <tuple>
       <TID>414</TID>
       <LOCATION>Canada</LOCATION>
       <NAME>default name</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>80</USERID>
+      <USERID>81</USERID>
     </tuple>
     <tuple>
       <TID>541</TID>
       <LOCATION>Texas</LOCATION>
       <NAME>default name</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>81</USERID>
+      <USERID>82</USERID>
     </tuple>
     <tuple>
       <TID>1001</TID>
       <LOCATION>the Philadelphia, PA</LOCATION>
       <NAME>Philly</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>82</USERID>
+      <USERID>83</USERID>
     </tuple>
     <tuple>
       <TID>1005</TID>
       <LOCATION>Winterfell</LOCATION>
       <NAME>Winterfell</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>82</USERID>
+      <USERID>83</USERID>
     </tuple>
     <tuple>
       <TID>1002</TID>
       <LOCATION>New York, state of NY</LOCATION>
       <NAME>New York</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>83</USERID>
+      <USERID>84</USERID>
     </tuple>
     <tuple>
       <TID>1004</TID>
       <LOCATION>Bay Harbor Islands</LOCATION>
       <NAME>Bay Harbor Islands</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>83</USERID>
+      <USERID>84</USERID>
     </tuple>
     <tuple>
       <TID>1003</TID>
       <LOCATION>Mordor</LOCATION>
       <NAME>Mordor</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>86</USERID>
+      <USERID>87</USERID>
     </tuple>
     <tuple>
       <TID>11002</TID>
       <LOCATION>ny</LOCATION>
       <NAME>New York</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>87</USERID>
+      <USERID>88</USERID>
     </tuple>
     <tuple>
       <TID>2001</TID>
       <LOCATION>Seattle</LOCATION>
       <NAME>Seatle</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>88</USERID>
+      <USERID>89</USERID>
     </tuple>
     <tuple>
       <TID>377</TID>
       <LOCATION>Miami</LOCATION>
       <NAME>Philadelphia</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>89</USERID>
+      <USERID>90</USERID>
     </tuple>
     <tuple>
       <TID>498</TID>
       <LOCATION>nice philly</LOCATION>
       <NAME>Miami</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>90</USERID>
+      <USERID>91</USERID>
     </tuple>
     <tuple>
       <TID>574</TID>
       <LOCATION>Dead sea</LOCATION>
       <NAME>Los Angeles</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>91</USERID>
+      <USERID>92</USERID>
     </tuple>
     <tuple>
       <TID>11511</TID>
       <LOCATION>warm Hawaii</LOCATION>
       <NAME>Beach Trip 2015</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>92</USERID>
+      <USERID>93</USERID>
     </tuple>
     <tuple>
       <TID>502</TID>
       <LOCATION>Yosemite</LOCATION>
       <NAME>Camping</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>93</USERID>
+      <USERID>94</USERID>
     </tuple>
     <tuple>
       <TID>673</TID>
       <LOCATION>Poconos</LOCATION>
       <NAME>Snow Boarding Trip 2015</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>94</USERID>
+      <USERID>95</USERID>
     </tuple>
     <tuple>
       <TID>634</TID>
       <LOCATION>Australia</LOCATION>
       <NAME>Study Abroad 2014</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>95</USERID>
+      <USERID>96</USERID>
     </tuple>
     <tuple>
       <TID>2005</TID>
       <LOCATION>Tokyo, cap of Japan</LOCATION>
       <NAME>Visiting my friends!!!</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>95</USERID>
+      <USERID>96</USERID>
     </tuple>
     <tuple>
       <TID>3001</TID>
       <LOCATION>London, UK</LOCATION>
       <NAME>TripA</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>97</USERID>
+      <USERID>98</USERID>
     </tuple>
     <tuple>
       <TID>3002</TID>
       <LOCATION>cap of France</LOCATION>
       <NAME>TripB</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>98</USERID>
+      <USERID>99</USERID>
     </tuple>
     <tuple>
       <TID>3003</TID>
       <LOCATION>New York, NY state</LOCATION>
       <NAME>TripC</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>99</USERID>
+      <USERID>100</USERID>
     </tuple>
     <tuple>
       <TID>3004</TID>
       <LOCATION>San Francisco of California</LOCATION>
       <NAME>TripD</NAME>
       <PRIVACY_FLAG>private</PRIVACY_FLAG>
-      <USERID>100</USERID>
+      <USERID>101</USERID>
     </tuple>
     <tuple>
       <TID>3005</TID>
       <LOCATION>Chicago, USA</LOCATION>
       <NAME>TripE</NAME>
       <PRIVACY_FLAG>public</PRIVACY_FLAG>
-      <USERID>101</USERID>
+      <USERID>102</USERID>
     </tuple>
   </TRIP>
   <USERS>

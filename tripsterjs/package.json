@@ -1,0 +1,14 @@
+{
+  "name": "tripsterjs",
+  "version": "1.0.0",
+  "description": "CIS550 Project with Dan Zhang, Dan Reife, Lily Wang, and Steve K",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.4"
+  }
+}
